@@ -1,0 +1,56 @@
+.container .columns{
+	padding: 0;
+	margin: 0;
+}
+.date-icons-div input[type="text"] {
+	width: 160px;
+	padding-left: 10px;
+}
+.date-icons-div img{
+	height: 20px;
+    margin-top: 6px;
+    cursor: pointer;
+    float: left !important;
+    margin-left: 10px;
+}
+.get-limits{
+	border: medium none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 30px;
+    line-height: 25px;
+    width: 80px;
+	background-color: #427aba;
+    color: #fff;
+}
+.normal-text{
+    color: #427aba;
+    font-size: 18px;
+    font-weight: 600;
+}
+.date-icons-div .date-checker-radio {
+	float: right;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.api-hits {
+	height: 80px;
+	width: 270px;
+	background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    color: #427aba;
+    font-family: "maven_proregular";
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+}
+.api-hits-text {
+	padding-top: 10px;
+}
+.api-hits span {
+	color: black;
+}
+input[type="text"][readonly] {
+    background-color: #fff;
+}

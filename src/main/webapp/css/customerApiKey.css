@@ -1,0 +1,87 @@
+.api-text {
+    color: #427aba;
+    font-size: 18px;
+    font-weight: 600;
+}
+.api-text span{
+    color: #427aba;
+    font-size: 16px;
+}
+.display-block {
+    display: inline-block;
+}
+.api-grid {
+    min-height: 38px;
+}
+.api-grid .text {
+    font-size: 16px;
+    color: #427ABA;
+    line-height: 38px;
+    font-weight: 600;
+    background-color: #F6F6F6;
+    border-bottom: 1px solid #D3D3D3;
+    height: 39px;
+}
+.api-details-grid {
+    height: 38px;
+    margin-top: 1px;
+}
+.api-long-text {
+	padding: 0;
+	text-align: left;
+}
+#api-key-icon {
+	cursor: pointer;
+}
+.api-details-grid .text {
+	font-size: 14px;
+	color: #8D8D8D;
+	line-height: 38px;
+	font-weight: 600;
+}
+.no-api-key{
+	font-size: 18px;
+	color: #427ABA;
+	width: 80%;
+}
+.api-details-grid a{
+	font-size: 14px;
+	color: #8D8D8D;
+	text-decoration: underline;	
+}
+.disable{
+	background-color: none;
+	border: none; 
+}
+.api-grid{
+	background-color: none;
+	border: none;
+}
+.paddingRight10{
+	padding-right: 10px;
+}
+.checkbox{
+	position: relative;
+	top: 6px;
+	right: 20px;
+}
+.delete-selected input[type="button"]	{
+	background-color: #427ABA;
+    border: 1px solid #427ABA;
+    border-radius: 4px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 16px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    width: 150px;
+}
+.api-key-details {
+	height: 300px;
+    overflow-y: scroll;
+    width: 100%;
+}
+.slimScrollDiv {
+	width: 100% !important;
+}

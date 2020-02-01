@@ -1,0 +1,68 @@
+
+.login-div{
+	margin: 0 auto;
+	background-color: #FBFBFB;
+	height: 240px;
+	border-radius: 5px;
+	width: 360px;
+	text-shadow: 1px 1px 1px 1px rgba(0,0,0,0.25);
+	height: auto;
+}
+.login-div .large-4{
+	width: 80%;
+}
+.login-div .large-12{
+	width: 100%;
+}
+.login-button{
+	height: 40px;
+	width: 300px;
+	background-color: #427ABA;
+	color:#FFF;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	border-radius:2px;
+	font-size: 22px;
+	line-height: 40px;
+	margin: 30px 25px;
+	font-family: 'maven_proregular';
+	text-shadow: 1px 1px 1px 1px rgba(0,0,0,0.25);
+}
+input[type="text"], input[type="password"]{
+	border: none ;
+	border-bottom: 1px solid #427ABA !important; 
+	box-shadow:none;
+	background-color: #FBFBFB;
+	margin-left: 25px;
+	font-size: 16px;
+}
+.login-div img{
+	height: 22px;
+    float: right;
+    position: relative;
+    top: -45px;
+    right: -15px;
+    color: #FBFBFB;
+}
+.forgot-password{
+	font-size: 15px;
+	color: #427ABA;
+	margin-right: -50px;
+	font-family: 'maven_proregular';
+	cursor: pointer;
+}
+#forgotPasswordModal{
+	width: 50%;
+	border: 1px solid #E0E0E0;
+}
+.forgot-text {
+    color: #427aba;
+    font-size: 18px;
+    font-weight: 600;
+}
+.forgot-content {
+    color: #427aba;
+    font-size: 16px;
+    font-weight: 600;
+}

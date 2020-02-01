@@ -1,0 +1,234 @@
+.admin-text, .admin-text a, .admin-details{
+	font-size: 24px;
+	color: #427ABA;
+}
+.admin-user{
+	font-size: 18px;
+	color: #7F7F7F;
+	display: inline; 
+	
+}
+.admin-user-div img{
+	height: 20px;
+	margin-top: -6px;
+}
+.admin-button{
+	height: 30px;
+	width: 130px;
+	background-color: #427ABA;
+	color:#FFF;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	line-height: 25px;
+}
+.user-grid .text{
+	font-size: 16px;
+	color: #427ABA;
+	line-height: 38px;
+}
+.user-grid{
+	background-color: #F6F6F6;
+	height: 38px;
+	border-bottom: 1px solid #E0E0E0;
+	margin-top: 10px;
+}
+.user-details-grid{
+	height: 40px;
+	background-color: #FCFCFC;
+}
+.user-details-grid .userText{
+	font-size: 14px;
+	color: #7F7F7F;
+	line-height: 40px;
+	background-color: #FCFCFC;
+	border-bottom: 1px solid #F6F6F6;
+	font-weight: 600;
+}
+.user-details-grid img{
+	height: 20px;
+	cursor: pointer;
+}
+.paddingLeft50{
+	padding-left: 50px;
+}
+.paddingLeft30{
+	padding-left: 30px;
+}
+
+.reveal-modal .close-reveal-modal{
+	position: relative;
+	top: 0;
+	right: 0;
+}
+#addAdminModal.reveal-modal{
+	max-width: 330px;
+	border-radius: 6px;	
+	border: 1px solid #D4D4D4;
+}
+#editAdminModal.reveal-modal{
+	max-width: 400px;
+	border-radius: 6px;	
+	border: 1px solid #D4D4D4;
+}
+#editAdminModal span{
+	width: 35%;
+	display: inline-block;
+	position: relative;
+    top: 10px;
+}
+.width62{
+	width: 62% !important;
+	display: inline-block !important;
+}
+
+.modal-text-add{
+	font-size: 18px;
+	color: #427ABA;
+}
+
+#addAdminModal input[type="text"], #addAdminModal select, #editAdminModal select, #editAdminModal input[type="text"], #addAdminModal input[type="password"]{
+	border: none ;
+	border-bottom: 1px solid #427ABA; 
+	box-shadow:none;
+	background-color: #FBFBFB;
+}
+#addAdminModal input[type="button"], #editAdminModal input[type="button"]{
+	height: 30px;
+	width: 80px;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.add-button, .update-button{
+	color: #FFF;
+	background-color: #427ABA;
+	line-height: 25px;
+}
+
+.cancel-button{
+	background-color: #D4D4D4;
+	line-height: 25px;
+}
+.changePwd{
+	font-size: 18px;
+    color: #427ABA;
+    cursor: pointer;
+    text-align: end;
+}
+.admin-user-details img{
+	height: 14px;
+}
+.admin-user-details span{
+	font-size: 18px;
+}
+.greyColor{
+	color: #7F7F7F;
+}
+.blueColor{
+	color: #427ABA;
+	padding-left: 5px;
+}
+.width120{
+	width: 120px;
+	display: inline-block;
+	padding-left: 14px;
+}
+.width113{
+	width: 113px;
+	display: inline-block;
+	padding-left: 14px;
+}
+.admin-user-details{
+	margin-top: 20px;
+	background-color: #F8F8F8;
+	padding: 10px;
+	width: 500px;
+}
+
+.admin-profile-text, .change-pwd-text{
+	padding: 0;
+}
+.padding10{
+	padding: 10px 10px 6px;
+}
+.change-pwd-details{
+	margin-top: 20px;
+    background-color: #F8F8F8;
+    padding: 0;
+    width: 400px;
+    min-height: 170px;
+    margin-left: 100px;
+}
+input[type="password"]{
+	border: none;
+    border-bottom: 1px solid #437ABA;
+    box-shadow: none;
+    background-color: #F8F8F8;
+}	
+.change-pwd-details img{
+	height: 22px;
+    float: right;
+    position: relative;
+    top: -45px;
+    color: #FBFBFB;
+}
+.password-div{
+	padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.buttons-div{
+	float: right;
+}
+.buttons-div input[type="button"]{
+	height: 30px;
+	line-height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.buttons-div .update-button{
+	color: #FFF;
+	background-color: #427ABA;
+}
+
+.buttons-div .cancel-button{
+	background-color: #D4D4D4;
+}
+
+#adminPagSrch{
+	margin-top: 20px;
+	width: 100%;
+	text-align: right;
+}
+.add-users-div{
+	min-height: 230px;
+}
+
+@media (max-width: 640px) {
+	.user-grid .text{
+		background-color: #F6F6F6;
+	}
+	.user-grid{
+		border: none;
+	}
+	.user-details-grid .paddingLeft50, .user-details-grid .paddingLeft30{
+		padding-left: 0.9375rem;
+	}
+	.change-pwd-details{
+		margin-left: 0px;
+	}
+	.buttons-div{
+		float: none;
+	}
+	.changePwd{
+		text-align: unset;
+	}
+}

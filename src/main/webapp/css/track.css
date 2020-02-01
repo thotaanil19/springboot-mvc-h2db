@@ -1,0 +1,47 @@
+.track-grid .text{
+	font-size: 16px;
+	color: #427ABA;
+	line-height: 35px;
+	font-weight: 600;
+	background-color: #F6F6F6;
+	border-bottom: 1px solid #E0E0E0;
+}
+.track-grid{
+	min-height: 38px;
+	width: 100%;
+}
+/* .track-grid .columns, .track-details-grid .columns{
+	padding: 0;
+} */
+.track-details-grid{
+	height: 35px;
+	margin-top: 4px;
+}
+.track-container{
+	 margin: 0 auto;
+    max-width: 1000px;
+}
+.track-details-grid .text{
+	font-size: 16px;
+	color: #8D8D8D;
+	line-height: 38px;
+	font-weight: 600;
+	background-color: #FCFCFC;
+	border-bottom: 1px solid #F6F6F6;
+}
+.add-tracks-div{
+	min-height: 450px;
+}
+.paddoingLeft40{
+	padding-left: 40px;
+}
+.paddoingLeft30{
+	padding-left: 30px;
+}
+.paddoingLeft20{
+	padding-left: 20px;
+}
+#trackPagSrch{
+	text-align: end;
+	 width: 80%;
+}
